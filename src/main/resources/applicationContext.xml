@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+
+    <!--  ===============================================dao配置开始===============================================  -->
+    <!--  数据库连接池  -->
+    <bean id="dataSopurce" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--    驱动    -->
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--    url    -->
+        <property name="url" value="jdbc:mysql://localhost:3306/ssm"/>
+        <!--   用户名     -->
+        <property name="username" value="root"/>
+        <!--   密码     -->
+        <property name="password" value="123456"/>
+    </bean>
+
+    <!--  mapper配置  -->
+    <!--  让spring管理sqlSessionFactory使用mybatis和spring整合包中的  -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--  连接池  -->
+        <property name="dataSource" ref="dataSopurce"/>
+        <!--   对应我们的实体类所在的包，自动取对应包中不包括包名的简单类名作为包括包名的别名 -->
+        <!--   多个package之间可以用逗号或者分号等来进行分隔 -->
+        <property name="typeAliasesPackage" value="com.itcast.ssm.pojo"/>
+    </bean>
+
+    <!--  mapper扫描器：用来产生代理对象  -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.itcast.ssm.dao"/>
+    </bean>
+    <!--  ===============================================dao配置结束===============================================  -->
+
+    <!--  =============================================service配置开始============================================  -->
+    <context:component-scan base-package="com.itcast.ssm.service"/>
+    <!--  =============================================service配置结束============================================  -->
+
+</beans>

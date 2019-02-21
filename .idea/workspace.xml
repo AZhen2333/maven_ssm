@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="28fdb79a-33d9-4471-b948-a49b21ce84a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/itcast/ssm/dao/ItemsMapper.xml" afterDir="false" />
+      <change beforePath="D:/README.md" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity.rar" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.classpath" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.externalToolBuilders/org.eclipse.jdt.core.javabuilder (2).launch" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.externalToolBuilders/org.eclipse.wst.common.project.facet.core.builder (2).launch" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.externalToolBuilders/org.eclipse.wst.jsdt.core.javascriptValidator (2).launch" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.externalToolBuilders/org.eclipse.wst.validation.validationbuilder (2).launch" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.gitignore" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.project" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/.jsdtscope" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.wst.common.component" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/db/blog.sql" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/pom.xml" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/readme.md" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/com/jfinal/plugin/activerecord/generator/BaseModelGenerator.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/GeneratorDemo.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/MyConfig.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/RunServer.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/annotation/Logical.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/annotation/RequiresPermissions.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/commons/Constants.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/AdminRoutes.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/ApiRouters.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/WebRouters.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminBlogController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminResController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminRoleController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminTagsController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/admin/AdminUserController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/web/BlogController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/controller/web/IndexController.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/directive/PermissionDirective.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/handler/SomethingHandler.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/holder/ThreadLocalHolder.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/interceptor/AuthorityInterceptor.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/Blog.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/BlogTag.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/Res.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/Role.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/RoleRes.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/Tags.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/User.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/UserRole.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/_DataDictionary.txt" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/_MappingKit.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseBlog.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseBlogTag.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseModel.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseRes.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseRole.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseRoleRes.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseTags.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseUser.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/BaseUserRole.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/Condition.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/model/base/Operators.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/utils/AESUtils.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/utils/OSUtils.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/utils/WebUtils.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/java/net/sppan/blog/vo/ZtreeView.java" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/resources/config.txt" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/resources/ehcache.xml" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/resources/freemarker.properties" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/resources/ueditor.config.json" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/__pagination.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_breadcrumbs.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_css.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_foot_js.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_footer.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_header_js.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_navbar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_navbarusermenu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_settingbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/inc/_sidebar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/layout/__formlayout.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/common/layout/__mainlayout.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/content/blog/form.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/content/blog/list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/content/tags/list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/login.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/res/form.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/res/list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/role/form.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/role/grant.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/role/list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/user/avatar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/user/change_info.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/user/change_password.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/user/form.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/sys/user/list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/admin/welcome.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/blog/article.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/blog/index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/__pagination.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_breadcrumbs.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_css.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_foot_js.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_footer.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_header_js.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_navbar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_navbarusermenu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/inc/_sidebar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/views/web/common/layout/__mainlayout.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/404.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/amazeui.datatables.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/amazeui.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/app.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/app.less" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/fullcalendar.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/css/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/app-icon72x72@2x.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/admin-chrome.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/admin-firefox.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/admin-ie.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/admin-opera.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/admin-safari.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/adminPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/blogPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/landing.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/landingPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/loginPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/examples/sidebarPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/favicon.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/i/startup-640x1096.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/a5.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/k.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/logoa.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/logob.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user01.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user02.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user03.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user04.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user05.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user06.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/img/user07.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/amazeui.datatables.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/amazeui.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/app.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/dataTables.responsive.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/echarts.min.js_" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/moment.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/assets/js/theme.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/calendar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/chart.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/form.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/login.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/sign-up.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/table-list-img.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/table-list.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/tables.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/白色.psd" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiadmin/黑色.psd" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/LICENSE" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/README.md" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/admin.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/amazeui.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/amazeui.flat.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/amazeui.flat.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/amazeui.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/app.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/css/lw-admin.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/app-icon72x72@2x.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/b1.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/b2.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/b3.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/admin-chrome.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/admin-firefox.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/admin-ie.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/admin-opera.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/admin-safari.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/adminPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/blogPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/landing.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/landingPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/loginPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/examples/sidebarPage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f10.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f12.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f13.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f14.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f15.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f16.jpeg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f16.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f161.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f17.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f18.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f19.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f20.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f22.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f4.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f5.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f6.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f7.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/f8.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/favicon.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/i/startup-640x1096.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.ie8polyfill.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.ie8polyfill.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.widgets.helper.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/amazeui.widgets.helper.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/app.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/handlebars.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/img.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/jquery.waterfall.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/assets/js/pinto.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/01.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/02.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/03.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/04.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/05.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/06.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/07.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/08.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/09.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/10.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/11.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/12.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/13.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/14.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/15.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/16.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/17.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/18.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/19.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/20.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/21.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/22.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/23.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/24.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/25.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/26.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/27.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/28.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/29.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/30.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/images/wood.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-article-fullwidth.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-article.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-category-sidebar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-img.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-index-center.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-index-nosidebar.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-index-noslider.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-log.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-re.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/amazeuiweb/lw-timeline.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/cropper/amazeui.cropper.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/cropper/cropper.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/images/touxiang1.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/jquery/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/jquery/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/jquery/jquery.mobile.custom.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/layer.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/tagit/css/jquery.tagit.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/tagit/css/tagit.ui-zendesk.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/tagit/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/tagit/js/tag-it.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/tagit/js/tag-it.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/background/background.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/background/background.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/background/background.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/background/images/success.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/charts.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/charts.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/charts.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/help/help.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/help/help.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/help/help.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/image.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/image.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/image/images/success.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/internal.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/link/link.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/map/show.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/music/music.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/music/music.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/music/music.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/preview/preview.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/edittable.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/edittable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/edittable.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/edittd.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/table/edittip.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/config.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/template.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/template.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/template/template.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/image.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/images/success.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/video.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/en.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/css/ueditor.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/dialogbase.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/arrow.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/charts.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/filescan.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/lock.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/scale.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/sortable.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/upload.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/word.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/themes/iframe.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/video-js/video.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/ueditor.all.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/ueditor.all.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/ueditor.config.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/ueditor.parse.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/ueditor/ueditor.parse.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/validationengine/css/validationEngine.jquery.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/validationengine/js/jquery.validationEngine-zh_CN.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/validationengine/js/jquery.validationEngine.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/validationengine/js/jquery.validationEngine.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/.gitattributes" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/.gitignore" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/README.md" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/API_cn.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/API_en.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/api.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/common.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/common_ie6.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/apiMenu.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/apiMenu.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/background.jpg" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/chinese.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/close.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/contact-bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/english.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/header-bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/lightbulb.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/overlay_arrow.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/overlay_arrow.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/overlay_bg.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/overlay_close_IE6.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/jquery-1.6.2.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/jquery.ztree.core.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/apiCss/zTreeStyleForApi.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/fn.zTree._z.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/fn.zTree.destroy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/fn.zTree.getZTreeObj.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/fn.zTree.init.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.autoParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.contentType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.dataFilter.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.dataType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.otherParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.type.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.async.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeAsync.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeCollapse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeDblClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeDrag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeDragOpen.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeDrop.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeEditName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeMouseDown.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeMouseUp.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeRemove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeRename.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.beforeRightClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onAsyncError.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onAsyncSuccess.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onCollapse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onDblClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onDrag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onDragMove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onDrop.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onMouseDown.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onMouseUp.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onNodeCreated.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onRemove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onRename.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.callback.onRightClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.autoCheckTrigger.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.chkDisabledInherit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.chkStyle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.chkboxType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.nocheckInherit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.check.radioType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.keep.leaf.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.keep.parent.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.key.checked.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.key.children.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.key.name.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.key.title.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.key.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.simpleData.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.simpleData.idKey.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.simpleData.pIdKey.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.data.simpleData.rootPId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.autoExpandTrigger.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.autoOpenTime.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.borderMax.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.borderMin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.inner.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.isCopy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.isMove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.maxShowNodeNum.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.minMoveSize.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.next.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.drag.prev.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.editNameSelectAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.removeTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.renameTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.showRemoveBtn.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.edit.showRenameBtn.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.treeId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.treeObj.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.addDiyDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.addHoverDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.autoCancelSelected.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.dblClickExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.expandSpeed.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.fontCss.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.nameIsHTML.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.removeHoverDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.selectedMulti.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.showIcon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.showLine.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.showTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/setting.view.txtSelectedEnable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.check_Child_State.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.check_Focus.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.checked.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.checkedOld.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.children.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.click.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.diy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.editNameFlag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getCheckStatus.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getIndex.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getNextNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getParentNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getPath.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.getPreNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.icon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.iconClose.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.iconOpen.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.iconSkin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isAjaxing.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isFirstNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isHidden.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isHover.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isLastNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.isParent.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.level.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.name.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.open.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.parentTId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.tId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.target.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/treeNode.zAsync.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.addNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.cancelEditName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.cancelSelectedNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.checkAllNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.checkNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.copyNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.destroy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.editName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.expandAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.expandNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getChangeCheckedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getCheckedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodeByParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodeByTId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodeIndex.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodesByFilter.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodesByParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getNodesByParamFuzzy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.getSelectedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.hideNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.hideNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.moveNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.reAsyncChildNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.refresh.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.removeChildNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.removeNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.selectNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.setChkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.setEditable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.setting.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.showNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.showNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.transformToArray.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.transformTozTreeNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/cn/zTreeObj.updateNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/fn.zTree._z.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/fn.zTree.destroy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/fn.zTree.getZTreeObj.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/fn.zTree.init.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.autoParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.contentType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.dataFilter.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.dataType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.otherParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.type.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.async.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeAsync.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeCollapse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeDblClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeDrag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeDragOpen.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeDrop.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeEditName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeMouseDown.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeMouseUp.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeRemove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeRename.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.beforeRightClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onAsyncError.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onAsyncSuccess.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onCollapse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onDblClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onDrag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onDragMove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onDrop.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onMouseDown.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onMouseUp.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onNodeCreated.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onRemove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onRename.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.callback.onRightClick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.autoCheckTrigger.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.chkDisabledInherit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.chkStyle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.chkboxType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.nocheckInherit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.check.radioType.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.keep.leaf.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.keep.parent.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.key.checked.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.key.children.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.key.name.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.key.title.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.key.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.simpleData.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.simpleData.idKey.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.simpleData.pIdKey.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.data.simpleData.rootPId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.autoExpandTrigger.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.autoOpenTime.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.borderMax.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.borderMin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.inner.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.isCopy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.isMove.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.maxShowNodeNum.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.minMoveSize.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.next.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.drag.prev.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.editNameSelectAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.enable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.removeTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.renameTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.showRemoveBtn.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.edit.showRenameBtn.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.treeId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.treeObj.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.addDiyDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.addHoverDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.autoCancelSelected.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.dblClickExpand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.expandSpeed.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.fontCss.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.nameIsHTML.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.removeHoverDom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.selectedMulti.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.showIcon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.showLine.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.showTitle.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/setting.view.txtSelectedEnable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.check_Child_State.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.check_Focus.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.checked.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.checkedOld.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.children.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.click.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.diy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.editNameFlag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getCheckStatus.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getIndex.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getNextNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getParentNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getPath.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.getPreNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.icon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.iconClose.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.iconOpen.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.iconSkin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isAjaxing.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isFirstNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isHidden.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isHover.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isLastNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.isParent.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.level.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.name.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.open.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.parentTId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.tId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.target.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/treeNode.zAsync.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.addNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.cancelEditName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.cancelSelectedNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.checkAllNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.checkNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.copyNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.destroy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.editName.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.expandAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.expandNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getChangeCheckedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getCheckedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodeByParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodeByTId.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodeIndex.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodesByFilter.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodesByParam.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getNodesByParamFuzzy.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.getSelectedNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.hideNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.hideNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.moveNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.reAsyncChildNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.refresh.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.removeChildNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.removeNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.selectNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.setChkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.setEditable.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.setting.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.showNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.showNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.transformToArray.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.transformTozTreeNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/api/en/zTreeObj.updateNode.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/awesomeStyle/awesome.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/awesomeStyle/awesome.less" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/awesomeStyle/fa.less" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/awesomeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/demo.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/metroStyle/img/line_conn.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/metroStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/metroStyle/img/metro.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/metroStyle/img/metro.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/metroStyle/metroStyle.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/1_close.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/1_open.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/2.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/3.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/4.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/5.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/6.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/7.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/8.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/diy/9.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/line_conn.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/loading.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/zTreeStandard.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/img/zTreeStandard.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/css/zTreeStyle/zTreeStyle.css" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/asyncData/getNodes.php" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/asyncData/getNodesForBigData.php" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/bigdata/common.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/bigdata/diy_async.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/bigdata/page.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/async.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/async_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/click.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/custom_font.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/custom_icon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/custom_iconSkin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/expand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/noicon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/noline.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/otherMouse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/searchNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/simpleData.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/standardData.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/update_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/core/url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox_chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox_count.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox_halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/checkbox_nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/radio_chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/radio_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/radio_halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/excheck/radio_nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/async_edit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/drag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/drag_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/drag_super.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/edit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/edit_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/edit_super.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exedit/multiTree.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exhide/checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exhide/common.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/exhide/radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/asyncForAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/awesome.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/checkbox_radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/diydom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/dragWithOther.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/left_menu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/left_menuForOutLook.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/left_menuForOutLook.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/left_menuForOutLook.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/metro.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/oneclick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/oneroot.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/rightClickMenu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/select_menu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/select_menu_checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/select_menu_radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/cn/super/singlepath.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/asyncData/getNodes.php" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/asyncData/getNodesForBigData.php" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/bigdata/common.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/bigdata/diy_async.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/bigdata/page.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/async.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/async_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/click.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/custom_font.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/custom_icon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/custom_iconSkin.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/expand.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/noicon.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/noline.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/otherMouse.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/searchNodes.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/simpleData.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/standardData.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/update_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/core/url.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox_chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox_count.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox_halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/checkbox_nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/radio_chkDisabled.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/radio_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/radio_halfCheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/excheck/radio_nocheck.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/async_edit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/drag.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/drag_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/drag_super.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/edit.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/edit_fun.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/edit_super.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exedit/multiTree.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exhide/checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exhide/common.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/exhide/radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/index.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/asyncForAll.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/awesome.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/checkbox_radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/diydom.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/dragWithOther.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/left_menu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/left_menuForOutLook.gif" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/left_menuForOutLook.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/left_menuForOutLook.png" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/metro.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/oneclick.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/oneroot.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/rightClickMenu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/select_menu.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/select_menu_checkbox.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/select_menu_radio.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/singlepath.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/demo/en/super/ztree.html" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery-1.4.4.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.all.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.all.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.core.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.core.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.excheck.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.excheck.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.exedit.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.exedit.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.exhide.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/jquery.ztree.exhide.min.js" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/js/ztree.3.5.26.zip" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/log v3.x.txt" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/resource/zTree/zTree.v3.jquery.json" beforeDir="false" />
+      <change beforePath="D:/qcEclipseWork/JFinalAuthroity/src/main/webapp/upload/image/20161210/1481354403809038789.jpg" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ssm_maven" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="247" column="31" lean-forward="true" selection-start-line="247" selection-start-column="31" selection-end-line="247" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/controller/ItemsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewItem.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ItemsMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/ItemsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/impl/ItemsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ItemsMapper</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\czz\study\ssm_maven\src\main\java\com\itcast\ssm\controller</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/pojo/Items.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/IntesMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/dao/ItemsMapper.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/itcast/ssm/ItemsMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ItemsMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/ssm/dao/ItemsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/ItemsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/impl/ItemsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewItem.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itcast/ssm/controller/ItemsController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../install/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\czz\install\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1789" />
+    <option name="y" value="84" />
+    <option name="width" value="1873" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.itcast.ssm.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\czz\study\ssm_maven\src\main\resources\com\itcast\ssm\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ItemsMapperTest.testFindItemsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemsMapperTest" />
+      <option name="METHOD_NAME" value="testFindItemsById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ItemsMapperTest.testFindItemsById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28fdb79a-33d9-4471-b948-a49b21ce84a7" name="Default Changelist" comment="" />
+      <created>1550709989602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550709989602</updated>
+      <workItem from="1550709993202" duration="1201000" />
+      <workItem from="1550711218912" duration="4188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 32m 24s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 33m 12s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 35m 17s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 35m 59s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 36m 10s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 37m 50s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 42m 29s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 47m 29s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsMapperTest_testFindItemsById - 2019.02.21 at 09h 48m 52s.xml">
+      <configuration name="ItemsMapperTest.testFindItemsById" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5389000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.2524013" />
+      <window_info id="Structure" order="1" sideWeight="0.5017361" side_tool="true" weight="0.2524013" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5017361" side_tool="true" weight="0.2524013" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937434" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3295099" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32977587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32977587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/pojo/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/dao/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/itcast/ssm/dao/ItemsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ItemsMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/ItemsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/service/impl/ItemsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewItem.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.tay.ssm_maven:ssm_maven:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.tay.ssm_maven:ssm_maven:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.tay.ssm_maven:ssm_maven:1.0-SNAPSHOT</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.32</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.2.RELEASE/org.springframework:spring-jcl:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-expression:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:5.0.2.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.18.2</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.47948560930802203" x="806.5" y="312.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="247" column="31" lean-forward="true" selection-start-line="247" selection-start-column="31" selection-end-line="247" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itcast/ssm/controller/ItemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

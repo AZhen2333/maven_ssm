@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:10:15:31 +0800] "GET /items/showItem?id=1 HTTP/1.1" 404 997 http-bio-8080-exec-1 603
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:10:15:32 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:10:16:14 +0800] "GET /items/showItem?id=1 HTTP/1.1" 404 997 http-bio-8080-exec-1 602
+0:0:0:0:0:0:0:1 - - [21/Feb/2019:10:16:41 +0800] "GET /items/showItem?id=1 HTTP/1.1" 404 999 http-bio-8080-exec-1 576
